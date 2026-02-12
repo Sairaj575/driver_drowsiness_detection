@@ -6,7 +6,7 @@ from torch.utils.data import DataLoader
 from model import MouthCNN
 
 BATCH_SIZE = 32
-EPOCHS = 15
+EPOCHS = 25
 LR = 0.001
 IMG_SIZE = 64
 
