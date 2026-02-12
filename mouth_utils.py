@@ -28,4 +28,7 @@ def is_yawning(mouth_img):
         output = model(tensor)
         prob = F.softmax(output, dim=1)
         pred = torch.argmax(prob, dim=1).item()
-    return pred == 1
+        confidence = prob[0][1].item()
+
+# Only treat as yawning if confidence is high
+    return pred == 1 and confidence > 0.70
