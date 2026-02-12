@@ -12,8 +12,9 @@ class AlertSystem:
             print("⚠️ Alarm sound not found, alerts will be silent")
 
     def play(self):
-        if self.enabled:
+        if self.enabled and not pygame.mixer.get_busy():
             self.sound.play()
+
 
 # def play_alert():
 #     print("ALERT: Driver appears drowsy!")
