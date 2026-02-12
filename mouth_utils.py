@@ -31,4 +31,5 @@ def is_yawning(mouth_img):
         confidence = prob[0][1].item()
 
 # Only treat as yawning if confidence is high
-    return pred == 1 and confidence > 0.70
+    return pred == 1 and confidence > 0.85
+
