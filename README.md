@@ -150,7 +150,7 @@ Click **Start Camera** to begin monitoring.
 
 ## 👨‍💻 Author
 
-Sairaj Umbarkar
+Sairaj Umbarkar\
 AI/ML Enthusiast
 
 ⭐ If you find this project useful, feel free to star the repository!
