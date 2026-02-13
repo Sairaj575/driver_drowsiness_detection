@@ -2,21 +2,21 @@
 
 Real-time Driver Drowsiness Detection System using:
 
--   👁️ Eye Aspect Ratio (EAR) for eye closure detection\
--   😮 Yawning detection using a CNN (PyTorch)\
--   🎯 MediaPipe Face Mesh for facial landmarks\
--   🔊 Alarm alert system\
+-   👁️ Eye Aspect Ratio (EAR) for eye closure detection
+-   😮 Yawning detection using a CNN (PyTorch)
+-   🎯 MediaPipe Face Mesh for facial landmarks
+-   🔊 Alarm alert system
 -   🌐 Streamlit Web App Interface
 
 ------------------------------------------------------------------------
 
 ## 📌 Features
 
--   Real-time webcam monitoring\
--   Eye blink detection using EAR threshold\
--   Yawn detection using Deep Learning (CNN)\
--   Alarm sound when drowsiness detected\
--   Streamlit-based UI\
+-   Real-time webcam monitoring
+-   Eye blink detection using EAR threshold
+-   Yawn detection using Deep Learning (CNN)
+-   Alarm sound when drowsiness detected
+-   Streamlit-based UI
 -   GPU support (if CUDA available)
 
 ------------------------------------------------------------------------
@@ -62,10 +62,10 @@ pip install -r requirements.txt
 
 ## 🧠 Yawn Detection Model (CNN)
 
--   3 Convolution layers\
--   MaxPooling\
--   Dropout (0.5)\
--   Fully Connected layers\
+-   3 Convolution layers
+-   MaxPooling
+-   Dropout (0.5)
+-   Fully Connected layers
 -   Output: 2 classes (Yawn / No Yawn)
 
 Input size: **64×64 grayscale image**
@@ -96,8 +96,8 @@ This generates:
 
 Configuration:
 
--   EAR_THRESHOLD = 0.25\
--   EAR_CONSEC_FRAMES = 20\
+-   EAR_THRESHOLD = 0.25
+-   EAR_CONSEC_FRAMES = 20
 -   YAWN_CONSEC_FRAMES = 15
 
 ------------------------------------------------------------------------
@@ -124,10 +124,10 @@ Click **Start Camera** to begin monitoring.
 
 ## 🔄 How It Works
 
-1.  Webcam captures frame\
-2.  MediaPipe detects face landmarks\
-3.  Eye landmarks → EAR calculated\
-4.  Mouth region extracted → CNN classification\
+1.  Webcam captures frame
+2.  MediaPipe detects face landmarks
+3.  Eye landmarks → EAR calculated
+4.  Mouth region extracted → CNN classification
 5.  If eyes closed for long duration OR yawning detected continuously →
     Alarm triggered
 
@@ -135,22 +135,22 @@ Click **Start Camera** to begin monitoring.
 
 ## 🖥️ Requirements
 
--   Python 3.9 recommended\
--   Webcam\
+-   Python 3.9 recommended
+-   Webcam
 -   Optional: GPU (CUDA supported)
 
 ------------------------------------------------------------------------
 
 ## 🚀 Future Improvements
 
--   Performance optimization\
+-   Performance optimization
 -   Larger dataset for better accuracy
 
 ------------------------------------------------------------------------
 
 ## 👨‍💻 Author
 
-Sairaj Umbarkar\
+Sairaj Umbarkar
 AI/ML Enthusiast
 
 ⭐ If you find this project useful, feel free to star the repository!
